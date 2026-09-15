@@ -48,6 +48,14 @@ class ProductForm
 
                                 RichEditor::make('description')
                                     ->columnSpan('full'),
+                                    
+                                RichEditor::make('short-description')
+                                    ->columnSpan('full'),
+                                
+                                RichEditor::make('long_description')
+                                    ->columnSpan('full'),
+                                
+
                             ])
                             ->columns(2),
 
